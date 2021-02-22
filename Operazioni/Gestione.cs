@@ -6,9 +6,9 @@ namespace Operazioni
     {
         public static void Riempimento(double[] array)
         {
-            for(int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine($"inserisci l'elemento in posizione {i+1}");
+                Console.WriteLine($"inserisci l'elemento in posizione {i + 1}");
                 array[i] = double.Parse(Console.ReadLine());
 
             }
@@ -32,7 +32,7 @@ namespace Operazioni
         }
         public static void Stampa(double[] array)
         {
-            for(int i = 0; i < array.Length-1; i++)
+            for (int i = 0; i < array.Length - 1; i++)
             {
                 Console.Write($"{array[i]}, ");
             }
